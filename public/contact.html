@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Pacifico&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Dulce Cielo</div>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/menu">Menu</a>
+      <a href="/about">About</a>
+      <a href="/contact" class="active">Contact</a>
+    </nav>
+  </header>
+
+  <main class="page-hero-wrapper">
+    <div class="container">
+      <h1 class="page-title">Get in Touch</h1>
+
+      <div class="two-col-grid">
+        <div class="img-wrapper">
+          <img src="/images/contact.jpg" alt="Fresh Desserts" class="feature-img">
+        </div>
+
+        <div class="content-box">
+          <h2>We'd Love to Hear From You</h2>
+          <p class="subtitle">Have a question or custom pastry inquiry? Send us a message below!</p>
+
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" placeholder="Fiona Mercado" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" placeholder="dulcecielo@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" rows="4" placeholder="Tell us how we can help..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn-submit">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>Mercado &copy; 2026 Dulce Cielo. All rights reserved.</p>
+  </footer>
+</body>
+</html>
